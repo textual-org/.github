@@ -4,9 +4,7 @@ Note: This project is heavily work in progress and is not ready for production u
 
 <p align="center">
   <a href="https://github.com/textual-org">
-    <picture>
-      <img src="https://avatars.githubusercontent.com/u/133390985" height="128">
-    </picture>
+    <img src="https://avatars.githubusercontent.com/u/133390985" height="128">
   </a>
 </p>
 

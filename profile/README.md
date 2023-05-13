@@ -2,7 +2,28 @@ Note: This project is heavily work in progress and is not ready for production u
 
 # Textual
 
-![Textual Logo](https://avatars.githubusercontent.com/u/133390985)
+<p align="center">
+  <a href="https://github.com/textual-org">
+    <picture>
+      <img src="https://avatars.githubusercontent.com/u/133390985" height="128">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  <a aria-label="Vercel logo" href="https://github.com/SGeri">
+    <img src="https://img.shields.io/badge/SGeri-000000.svg?style=for-the-badge&labelColor=000">
+  </a>
+  <a aria-label="License" href="https://github.com/vercel/next.js/blob/canary/license.md">
+    <img alt="" src="https://img.shields.io/npm/l/next.svg?style=for-the-badge&labelColor=000000">
+  </a>
+  <a aria-label="Web" href="https://github.com/textual-org/web-service">
+    <img alt="" src="https://img.shields.io/badge/WEB-blueviolet.svg?style=for-the-badge&logo=Next.js&labelColor=000000&logoWidth=20">
+  </a>
+  <a aria-label="Processor" href="https://github.com/textual-org/processor">
+    <img alt="" src="https://img.shields.io/badge/Python-blue.svg?style=for-the-badge&logo=Python&labelColor=000000&logoWidth=20">
+  </a>
+</p>
 
 Textual is a medium-sized fullstack application that leverages OpenAI's Whisper trained models to generate speech recognized transcriptions for audio files. It aims to provide accurate and efficient transcription capabilities and has plans to support subtitle generation for movie sequences in the future.
 
@@ -21,7 +42,7 @@ Textual is a medium-sized fullstack application that leverages OpenAI's Whisper 
 
 The project's infrastructure is designed as follows:
 
-![Infrastructure Setup](https://myinfra.com/image)
+![Infrastructure Setup](https://raw.githubusercontent.com/textual-org/.github/8d34c6d5bcc3806136e71f2ddc0d40b15285a63b/infrastructure.png)
 
 - Cloudflare: The entrypoint for the application, proxies requests to the main server.
 - VPC (AWS Virtual Private Cloud):
@@ -33,18 +54,18 @@ The project's infrastructure is designed as follows:
     - Node1, Node2, Node3: EC2 instances responsible for processing files.
 - S3 (AWS Simple Storage Service): Stores the generated and user-uploaded files.
 
-## Installation
+## Installation (TODO)
 
 To run the Textual project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/textual.git`
+1. Clone the repository: `git clone https://github.com/textual-org/textual.git`
 2. Install project dependencies: `npm install`
 3. Configure your AWS credentials and services according to the project's requirements.
 4. Start the application: `npm start`
 
 ## Usage
 
-Once the application is running, you can access it through your browser or API clients. Follow the provided documentation and guidelines to interact with the features and functionalities of the Textual application.
+Once the application is running, you can access it through your browser at our [website](https://to-be-done.com). Follow the provided documentation and guidelines to interact with the features and functionalities of the Textual application.
 
 ## Contribution
 
